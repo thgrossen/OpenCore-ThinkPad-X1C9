@@ -296,7 +296,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>AirportItlwm.kext</string>
+				<string>BlueToolFixup.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>Enabled</key>
@@ -306,11 +306,11 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportItlwm</string>
+				<string>Contents/MacOS/BlueToolFixup</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AirportItlwm.kext</string>
+				<string>BlueToolFixup.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -329,6 +329,24 @@
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirportItlwm.kext</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AirportItlwm.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
