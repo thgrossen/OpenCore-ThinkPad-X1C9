@@ -386,11 +386,29 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USBInjectAll.kext</string>
+				<string>USBMap.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBMap.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USBInjectAll.kext</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 				<key>MinKernel</key>
